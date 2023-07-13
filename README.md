@@ -152,6 +152,7 @@ Here's an example of how to use CopyShareify-js with different selection options
 Here's a Demo example : 
 
 [Demo](https://www.github.com/HichemTab-tech)
+
 ## Contributing
 
 Contributions are always welcome!
@@ -165,4 +166,4 @@ If you have any ideas, improvements, or bug fixes, please open an issue or submi
 
 ## License
 
-[MIT](https://github.com/HichemTab-tech/android-utils/blob/master/LICENSE)
+[MIT](https://github.com/HichemTab-tech/CopyShareify-js/blob/master/LICENSE)

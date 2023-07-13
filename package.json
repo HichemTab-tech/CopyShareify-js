@@ -4,11 +4,39 @@
   "description": "CopyShareify-js is a versatile JavaScript library that enhances buttons with customizable actions. With CopyShareify-js, you can effortlessly transform ordinary buttons into powerful tools that enable various actions, including copying content, sharing on social media platforms, and more.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \\\"Error: no demo specified\\\" && exit 1",
     "build": "webpack --config webpack.config.js"
   },
   "author": "HichemTab <konanhichemsinshi@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HichemTab-tech/CopyShareify-js.git"
+  },
+  "keywords": [
+    "JavaScript library",
+    "Button actions",
+    "Copy content",
+    "Share content",
+    "Clipboard",
+    "Social media sharing",
+    "Frontend development",
+    "Web development",
+    "jQuery plugin",
+    "Customizable actions",
+    "HTML elements",
+    "Image copying",
+    "Web Share API",
+    "UI components",
+    "Utility library",
+    "DOM manipulation",
+    "javascript",
+    "html"
+  ],
+  "bugs": {
+    "url": "https://github.com/HichemTab-tech/CopyShareify-js/issues"
+  },
+  "homepage": "https://github.com/HichemTab-tech/CopyShareify-js",
   "dependencies": {
     "jquery": "^3.7.0",
     "terser-webpack-plugin": "^5.3.9"
