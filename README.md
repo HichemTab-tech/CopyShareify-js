@@ -22,7 +22,7 @@ You can install CopyShareify-js via npm:
 You can also include CopyShareify-js directly from a CDN by adding the following script tag to your HTML file:
 
 ```HTML
-  <script src="https://cdn.example.com/copyshareify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/HichemTab-tech/CopyShareify-js@1.0.1/dist/copyshareify.min.js"></script>
 ```
 
 ### Local Download
@@ -151,7 +151,7 @@ Here's an example of how to use CopyShareify-js with different selection options
 
 Here's a Demo example : 
 
-[Demo](https://www.github.com/HichemTab-tech)
+[Demo](https://hichemtab-tech.github.io/CopyShareify-js/)
 
 ## Contributing
 
