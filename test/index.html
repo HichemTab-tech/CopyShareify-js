@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CopyShareify-js</title>
+</head>
+<body>
+    <div>
+        <h1>CopyShareify-js</h1>
+
+        <h3>Example :</h3>
+
+        <h5>Copy a string directly</h5>
+        <button data-action="copy" data-string="This is a text 1">Click to copy</button>
+        <br><br><hr><br>
+
+        <h5>Copy a string from inside a html element (< p >)</h5>
+        <p id="p">This is a text 2</p>
+        <button data-action="copy" data-html-element-selector="#p">Click to copy</button>
+        <br><br><hr><br>
+
+        <h5>Copy a string from input</h5>
+        <label>
+            <input name="inp" value="This is a text 3">
+        </label>
+        <br>
+        <button data-action="copy" data-html-input-selector="[name='inp']">Click to copy</button>
+        <br><br><hr><br>
+
+        <h5>Copy image</h5>
+        <img id="img" src="image.png" alt="image" style="width: 300px;">
+        <br>
+        <button data-action="copy" data-html-img-selector="#img">Click to copy</button>
+        <br><br>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="../dist/copyshareify.js"></script>
+<script>
+    $('[data-action]').CopyShareify();
+</script>
+</body>
+</html>
