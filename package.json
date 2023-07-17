@@ -1,8 +1,8 @@
 {
   "name": "copyshareify-js",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "CopyShareify-js is a versatile JavaScript library that enhances buttons with customizable actions. With CopyShareify-js, you can effortlessly transform ordinary buttons into powerful tools that enable various actions, including copying content, sharing on social media platforms, and more.",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \\\"Error: no demo specified\\\" && exit 1",
     "build": "webpack --config webpack.config.js"

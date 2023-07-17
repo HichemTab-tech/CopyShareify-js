@@ -1,4 +1,4 @@
-import {CopyShareify} from './src/copyshareify';
+import {CopyShareify} from './copyshareify';
 (function($) {
     $.fn.CopyShareify = CopyShareify;
 })(jQuery);
